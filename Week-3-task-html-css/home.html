@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Week 3 Tasks ( b) Using HTML and CSS </title>
+</head>
+<body>
+    <div id="Results"></div>
+    <a href="/home.html">Back to form</a>
+
+    <!--Login page-->
+
+    <div id="login">
+        <h2>Sign up with your email</h2>
+            <p>Already have an account? <span style="color: blue; cursor: pointer;">Sign up</span></p>
+    </div>
+
+    <form style="display: flex; flex-direction:column; justify-content:center; align-items:center; ;" action="success.html" method="get">
+        <div>
+            <label for="email">Email</label>
+            <input type="Email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input style="position: absolute;" type="password" name="password" id="password" required>
+            <svg style="width:20px; position:relative; left:230px; bottom:-3px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88" />
+              </svg>
+              
+            
+        </div>
+       <button style="color:white; background-color:blue; padding:10px 45px; border-radius:10px; border:none" type="submit">Continue</button>
+    </form>
+    <!--end of login-->
+</body>
+</html>
